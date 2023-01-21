@@ -5,3 +5,12 @@ body{
     background-color: rgb(252, 240, 69);
     color: rgb(33, 40, 49);
 }
+a{
+    color:rgb(255, 0, 0);
+}
+a:visited{
+    color: rgb(70, 6, 6);
+}
+a:hover,a:active{
+    color: rgb(219, 95, 95);
+}
