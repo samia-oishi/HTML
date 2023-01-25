@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Oishi">
+    <meta name="description" content="This page contains all things I am learning how to create as I learn html">
+    <title>My Fifth Web Page</title>
+    <link rel="icon" href="html5.png" type="image/x-icon">
+    <link rel="stylesheet" href="main.css" type="text/css"><!--This link is an relative reference-->
+  </head>
+
+  <body>
+    <h1>My Goals for the year.</h1>
+    <hr>
+
+    <nav>
+      <ul>
+        <li>
+          <a href="#html">Learning Html</a>
+        </li>
+          <li>
+          <a href="#vacation">Planning a Vacation</a>
+        </li>
+        <li>
+          <a href="#about">About Me</a>
+        </li>
+      </ul>
+    </nav>
+
+    <hr>
+            <!-- these are called horizontal rule. they add a divider. -->
+    <section id="html">
+    <h2>I'm ready to learn HTML</h2>
+    <p>This is my 5th web page.</p>
+
+    <h3>My daily Schedule</h3>
+    <p>Let me tell you how:</p>
+      <ol>
+      <li>...I learn more about web dev.</li>
+      <li>...I plan out my Schedule.</li>
+      <li>...I use resources from 
+        <abbr title="Mozilla Developer Network">
+          <a href="https://developer.mozilla.org/">MDN</a></abbr>.
+      </li> <!--This link is an absolute reference-->
+      </ol>
+    </section>
+
+    <hr>
+    <!--semantic sections with id attributes can be used to create destinations for internal links.-->
+
+    <section id="vacation">
+    <h2>I'm also planning a vacation.</h2>
+    <p>
+      I've been working hard and 
+      <em>really need a getaway.</em>
+    </p>
+    <p>I live in <abbr title="Kansas">KS</abbr> so I want to visit a beach.</p>
+
+    <h3>Places I'd Like to Visit</h3>
+    <ul>
+    <li><p>I've heard good things about the carribean.</p></li>
+    <li><p>I've heard good things about going here:</p>
+    <address>
+    Margarita villa Island Cancun. <br>
+    Colonia Morelos, Mexico.
+    </address>
+    </li>
+    </ul>
+    <!-- To do: Add more places! -->
+    
+    <h3>Places I'd Like to Avoid</h3>
+    <dl>
+    <dt>North pole</dt>
+    <dd>I hear this is <strong>cold</strong>!</dd>
+
+    <dt>South pole</dt>
+    <dd>I hear this is also cold.</dd>
+
+    <dt>Mountain tops</dt>
+    <dd>I hear these are also cold.</dd>
+    </dl>
+    </section>
+
+    <hr>
+    <section id="about">
+    &lt;&lt;&lt;&copy; <a href="about.html">Samia Oishi</a> &gt;&gt;&gt;
+        <!-- these are called entities. -->
+    </section>
+
+    <p><a href="#">Back to Top</a></p>
+            <!-- this isn't needed to be done in the nav tag it'll take you to the top anyways but it'll add a # in the page's link. -->
+
+            <!-- link naming: just give a SHORT description that'll help people understand what it is! -->
+  </body>
+</html>
