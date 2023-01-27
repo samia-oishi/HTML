@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="author" content="Oishi">
     <meta name="description" content="This page contains all things I am learning how to create as I learn html">
-    <title>My Fifth Web Page</title>
+    <title>My Sixth Web Page</title>
     <link rel="icon" href="html5.png" type="image/x-icon">
     <link rel="stylesheet" href="main.css" type="text/css"><!--This link is an relative reference-->
   </head>
@@ -31,8 +31,14 @@
             <!-- these are called horizontal rule. they add a divider. -->
     <section id="html">
     <h2>I'm ready to learn HTML</h2>
-    <p>This is my 5th web page.</p>
-
+    <p>This is my 6th web page.</p>
+    <img src="img/html_logo_300x300.png" alt="HTML5 Logo" title="I am learning HTML5" width="300" height="300">
+    <figure>
+      <figcaption>An Example of HTML5 code</figcaption>
+      <p>
+        <code>&lt;h1&gt;Hello World&lt;h1&gt;</code>
+      </p>
+    </figure>
     <h3>My daily Schedule</h3>
     <p>Let me tell you how:</p>
       <ol>
@@ -40,14 +46,15 @@
       <li>...I plan out my Schedule.</li>
       <li>...I use resources from 
         <abbr title="Mozilla Developer Network">
-          <a href="https://developer.mozilla.org/">MDN</a></abbr>.
+          <a href="https://developer.mozilla.org/">MDN
+          </a></abbr>.
       </li> <!--This link is an absolute reference-->
       </ol>
     </section>
 
     <hr>
     <!--semantic sections with id attributes can be used to create destinations for internal links.-->
-
+    <!--br*150 tab dile oi tag 150 bar ashbe-->
     <section id="vacation">
     <h2>I'm also planning a vacation.</h2>
     <p>
@@ -58,12 +65,23 @@
 
     <h3>Places I'd Like to Visit</h3>
     <ul>
-    <li><p>I've heard good things about the carribean.</p></li>
+    <li><p>I've heard good things about the carribean.</p>
+      <figure>
+      <img src="img/caribbean.jpg" alt="Carribean Beachs" title="I want to vist the Carribean Beach." width="400" height="225" loading="lazy">
+      <figcaption>Caribbean Beach Getaway</figcaption>
+      </figure>
+    </li>
+    <!--lazy loading dile page fast load hbe img will load when it needs to. chrome e dekhte chrome dev tools theke network e jeye disable cache r img select krle hbe-->
+
     <li><p>I've heard good things about going here:</p>
     <address>
     Margarita villa Island Cancun. <br>
     Colonia Morelos, Mexico.
     </address>
+    <figure>
+    <img src="img/vacation.jpg" alt="Cancun Vacation" title="It's 5 o'clock somewhere!" width="400" height="267" loading="lazy">
+    <figcaption>A Caribbean Vacation Image</figcaption>
+    </figure>
     </li>
     </ul>
     <!-- To do: Add more places! -->
