@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Oishi">
+    <meta name="description" content="This page contains all things I am learning how to create as I learn html">
+    <title>My seventh Web Page</title>
+    <link rel="icon" href="html5.png" type="image/x-icon">
+    <link rel="stylesheet" href="main.css" type="text/css"><!--This link is an relative reference-->
+  </head>
+
+  <body>
+    <header>
+      
+    <h1>My Goals for the year.</h1>
+
+    <nav aria-label="primary-navigation">
+      <h2 id="primary-navigation">....</h2>
+      <ul>
+        <li>
+          <a href="#html">Learning Html</a>
+        </li>
+          <li>
+          <a href="#vacation">Planning a Vacation</a>
+        </li>
+        <li>
+          <a href="#about">About Me</a>
+        </li>
+      </ul>
+    </nav>
+
+    </header>
+
+    <hr>
+
+    <main>
+            <!-- these are called horizontal rule. they add a divider. -->
+    <article id="html">
+    <h2>I'm ready to learn HTML</h2>
+    <p>This is my 7th web page.</p>
+    <section>
+      <h3>HTML5</h3>
+    <img src="img/html_logo_300x300.png" alt="HTML5 Logo" title="I am learning HTML5" width="300" height="300">
+    <figure>
+      <figcaption>An Example of HTML5 code</figcaption>
+      <p>
+        <code>&lt;h1&gt;Hello World&lt;h1&gt;</code>
+      </p>
+    </figure>
+  </section>
+  <section>
+    <h3>My daily Schedule</h3>
+    <p>Let me tell you how:</p>
+      <ol>
+      <li>...I learn more about web dev.</li>
+      <li>...I plan out my Schedule.</li>
+      <li>...I use resources from 
+        <abbr title="Mozilla Developer Network">
+          <a href="https://developer.mozilla.org/">MDN
+          </a></abbr>.
+      </li> <!--This link is an absolute reference-->
+      </ol>
+      <aside>
+        <details>
+          <summary>
+            Guess the <mark> number of hours </mark> i code per day.
+          </summary>
+          <p>I start at <time datetime="08:00">8 am</time> and I write code fo <time datetime="PT3H"> 3 hours </time>every morning.</p>
+        </details>
+      </aside>
+    </section>
+    </article>
+
+    <hr>
+    <!--semantic sections with id attributes can be used to create destinations for internal links.-->
+    <!--br*150 tab dile oi tag 150 bar ashbe-->
+    <article id="vacation">
+    <h2>I'm also planning a vacation.</h2>
+    <p>
+      I've been working hard and 
+      <em>really need a getaway.</em>
+    </p>
+    <p>I live in <abbr title="Kansas">KS</abbr> so I want to visit a beach.</p>
+
+    <section>
+    <h3>Places I'd Like to Visit</h3>
+    <ul>
+    <li><p>I've heard good things about the carribean.</p>
+      <figure>
+      <img src="img/caribbean.jpg" alt="Carribean Beachs" title="I want to vist the Carribean Beach." width="400" height="225" loading="lazy">
+      <figcaption>Caribbean Beach Getaway</figcaption>
+      </figure>
+    </li>
+    <!--lazy loading dile page fast load hbe img will load when it needs to. chrome e dekhte chrome dev tools theke network e jeye disable cache r img select krle hbe-->
+
+    <li><p>I've heard good things about going here:</p>
+    <address>
+    Margarita villa Island Cancun. <br>
+    Colonia Morelos, Mexico.
+    </address>
+    <figure>
+    <img src="img/vacation.jpg" alt="Cancun Vacation" title="It's 5 o'clock somewhere!" width="400" height="267" loading="lazy">
+    <figcaption>A Caribbean Vacation Image</figcaption>
+    </figure>
+    </li>
+    </ul>
+    <!-- To do: Add more places! -->
+    <!--
+      <div></div>
+    <span></span>
+  -->
+
+    </section>
+
+    <section>
+    <h3>Places I'd Like to Avoid</h3>
+    <dl>
+    <dt>North pole</dt>
+    <dd>I hear this is <strong>cold</strong>!</dd>
+
+    <dt>South pole</dt>
+    <dd>I hear this is also cold.</dd>
+
+    <dt>Mountain tops</dt>
+    <dd>I hear these are also cold.</dd>
+    </dl>
+    </section>
+    </article>
+
+  </main>
+    <hr>
+
+    <footer>
+      <p>
+    <section id="about">
+    &lt;&lt;&lt;&copy; <a href="about.html">Samia Oishi</a> &gt;&gt;&gt;
+        <!-- these are called entities. -->
+    </section>
+      </p>
+
+    <p><a href="#">Back to Top</a></p>
+            <!-- this isn't needed to be done in the nav tag it'll take you to the top anyways but it'll add a # in the page's link. -->
+
+            <!-- link naming: just give a SHORT description that'll help people understand what it is! -->
+    </footer>
+  </body>
+</html>
